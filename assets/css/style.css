@@ -1,0 +1,27 @@
+header{
+    width: 100%;
+    background-color: rgb(87, 179, 148);
+}
+
+.menu{
+    text-align: center;
+    width: 400px;
+   height: 30px;
+    margin: 0 auto;
+}
+
+.menu .elemento{
+    display: inline-block;
+    line-height: 1.9;
+    
+}
+
+.elemento a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: all 0.3s;
+}
+
+.elemento a:hover{
+    color: #ccc;
+}
